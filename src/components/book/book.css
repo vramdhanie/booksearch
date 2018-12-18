@@ -1,0 +1,27 @@
+
+.Book {
+  padding: 5px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.Book__details {
+  display: flex;
+}
+
+.Book__author::after {
+  content: ", ";
+}
+
+.Book__author:last-child::after {
+  content: "";
+}
+
+.Book__image {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  color: #ADADAD;
+  padding: 2px;
+}
